@@ -1,0 +1,47 @@
+<?php
+opcache_reset();
+session_start();
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="container-fluid" style="text-align:center">
+        <hr>
+        <h5>Hemcraft Web Browser</h5>
+        <hr>
+    </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hemkraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+
+
+    <div class="container-fluid" style="text-align:center">
+        <h1>Welcome to Hemcraft</h1>
+
+    </div>
+    <div class="container-fluid" style="text-align:center">
+        <a href="get_email_address.php">Enter my household info</a><br>
+        <a href="view_reports_menu.php">View reports/query data</a>
+    </div>
+
+
+</body>
+
+</html>
